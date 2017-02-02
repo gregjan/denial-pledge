@@ -1,0 +1,36 @@
+body {
+	color: #fff;
+	background-color: #679ece;
+	font-family: 'Open Sans', sans-serif;
+	padding-bottom: 50px;
+}
+h1,h2,h3,h4,h5 
+{
+	font-family: 'Crimson Text', serif;
+	line-height: 140%;
+	margin: 20px 0;
+}
+a {
+	color: #fff !important;
+}
+a:hover {
+	text-decoration: underline !important;
+}
+.btn a:hover {
+	text-decoration: none !important;
+}
+
+nav.navbar 
+{
+	background-color: #253848;
+	color: #fff;
+	border: none;
+}
+.navbar-brand 
+{
+	font-family: 'Crimson Text', serif;
+}
+.jumbotron
+{
+	background-color: #38556f;
+}
