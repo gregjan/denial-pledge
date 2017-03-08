@@ -1,0 +1,31 @@
+{% extends "layout.html" %} {% block body %}
+
+<div class="container">
+  <h1><i class="fa fa-balance-scale" aria-hidden="true"></i> The Pledge</h1>
+
+  <h3>
+		“I believe that climate change is a problem that neither deserves our attention nor warrants immediate action. I recognize that, according to what climate scientists claim is established science, the decision I make today can have irreversible consequences for the environment. However, I want to go on the record with my decision and, in doing so, take responsibility for what happens in the coming decades. I feel sufficiently confident about my anti-climate change beliefs to sign this pledge for future generations to see.”
+	</h3>
+  <p>
+    <form action="/do_pledge" method="POST">
+      <fieldset>
+        Full Name <input style="color: black;" name="fullname"></input><br/>
+        City <input style="color: black;" name="city"></input><br/>
+        State <input style="color: black;" name="state"></input><br/>
+        Email <input style="color: black;" name="email"></input><br/>
+        <button type="submit">I do hereby take this pledge</button>
+      </fieldset>
+    </form>
+  </p>
+  <p style="font-size: .75em;">
+    We will ONLY use your email address to verify your signature. It will never be shared or used for other purposes. <strong>Only your full name</strong>    will be entered in the permanent record.
+  </p>
+
+  <div class="alert alert-info">
+    The names of the signers will be unsealed in 2050. At that time the debate will be over!
+  </div>
+
+
+</div>
+
+{% endblock %}
